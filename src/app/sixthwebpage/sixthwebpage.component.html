@@ -1,0 +1,271 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <img src="assets/logo.png" alt="Logo" class="toolbar-logo">
+        <span class="spacer"></span>
+    <button mat-button>Home</button>
+    <button mat-button [matMenuTriggerFor]="about" class="about">
+        <span>About</span>
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #about="matMenu">
+        <button mat-menu-item>About Sixthstar</button><mat-divider></mat-divider>
+        <button mat-menu-item>Mission / Vision</button><mat-divider></mat-divider>
+        <button mat-menu-item>Why Choose us?</button><mat-divider></mat-divider>
+        <button mat-menu-item>Our Buisness Model</button><mat-divider></mat-divider>
+        <button mat-menu-item>Partner</button><mat-divider></mat-divider>
+        <button mat-menu-item>Sidemap</button><mat-divider></mat-divider>
+        <button mat-menu-item>Testimonials</button><mat-divider></mat-divider>
+        <button mat-menu-item>Careers</button><mat-divider></mat-divider>
+        <button mat-menu-item>clients</button>
+    </mat-menu>
+
+
+    <button mat-button [matMenuTriggerFor]="servers" class="servers">
+        <span>Servers</span>
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #servers="matMenu">
+        <button mat-menu-item>Dedicated Hosting</button><mat-divider></mat-divider>
+        <button mat-menu-item>VPS Hosting</button><mat-divider></mat-divider>
+        <button mat-menu-item>Cloud Hosting</button><mat-divider></mat-divider>
+        <button mat-menu-item>Shared Server Hosting</button><mat-divider></mat-divider>
+        <button mat-menu-item>Carbonio Email Hosting</button><mat-divider></mat-divider>
+        <button mat-menu-item>Providers</button>
+    </mat-menu>
+
+    <button mat-button mat-button [matMenuTriggerFor]="mail" class="Mail">
+        <span>Carbonio Mail</span>
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #mail="matMenu">
+        <button mat-menu-item>Carbonio Mail Features</button><mat-divider></mat-divider>
+        <button mat-menu-item>Zextras Carbonio</button><mat-divider></mat-divider>
+        <button mat-menu-item>Crbonio Demo</button><mat-divider></mat-divider>
+        <button mat-menu-item>Carbonio Community</button><mat-divider></mat-divider>
+        <button mat-menu-item>Edition</button><mat-divider></mat-divider>
+        <button mat-menu-item>High Availability</button>
+    </mat-menu>
+
+    <button mat-button mat-button [matMenuTriggerFor]="spam" class="spam">
+        <span>Spam Software</span>
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #spam="matMenu">
+        <button mat-menu-item>Incoming Spam Filter</button><mat-divider></mat-divider>
+        <button mat-menu-item>Outgoin Spam Filter</button>
+    </mat-menu>
+    <button mat-button>Contact Us</button>
+    <button mat-button>Get a Quote</button>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div class="content">
+    <div class="main">
+      ULTIMATE & DIGITAL PRIVATE <br><br><br>WORKPLACE 
+    </div>
+    <br><br><br>
+    <div class="subcontent">
+        The Evolution Of Digital Sovereignty
+    </div>
+    <br><br>
+    <button mat-button class="Carboniomail">CARBONIO MAIL</button> &nbsp;
+    <button mat-button class="Carboniodemo">CARBONIO DEMO</button>
+</div>
+
+<div>
+<img src="assets/robot.jpeg" alt="roboimg" class="roboimg">
+</div>
+<br>
+<div class="robustcontent">
+    <div class="textcontent">
+    <div class="heading">Robust and Secure</div><br>
+    <div class="subheading">
+        The private corporate email and collaboration platform Carbonio is completely exclusive and includes:
+    </div>
+    <div class="robustsubcontent">
+    <ul>
+        <li>E-mail, Contacts and Calendar Essentials, Address book all shareable across a domain.</li><br>
+        <li>A complete corporate email server equipped with anti-spam and anti-virus software.</li><br>
+        <li> Chat and Video chats.</li><br>
+        <li>Supports Mobile App both Android and IOS.</li><br>
+        <li>Robust backup and High Availability.</li><br>
+        <li>File Management System including collaborative editing and document sharing.</li>
+    </ul>
+</div> 
+<button mat-button class="mailfeatures">LEARN MORE ABOUT CARBONIO MAIL FEATURES</button>
+    </div>
+<div class="zextasimg">
+    <img src="assets/zextasimg.jpeg" alt="zextasimg">
+</div>
+</div>
+
+<div class="textcontent2">
+    <div class="text1">Fully Private Digital Workplace</div>
+    <div class="text2">WHY CARBONIO FOR YOUR EMAIL?</div>
+    <div class="text3">Carbonio is trusted by most of the businesses who looking for digital sovereignty <br><br> but can’t give up scalability.</div>
+</div>
+
+
+<div class="grid-container">
+    
+        <div class="grid-content">   
+            <img src="assets/image.png" alt="Image 1">
+            <div class="grid-text">Carbonio Mail Features</div>
+            <div class="grid1">
+                <ul>
+                    <li>Private email server</li>
+                    <li>Real-time backup and Restore</li>
+                    <li>Advanced storage management</li>
+                    <li>High Availability</li>
+                    <li>Secure authentication</li>
+                    <li>Chat and video chats</li>
+                    
+                </ul>
+            </div>
+            <button mat-button class="gridbutton1">READ MORE</button>
+        </div>
+        <div class="grid-content">
+            <img src="assets/image2.png" alt="Image 2">
+            <div class="grid-text">Carbonio Community Edition</div>
+            <div class="grid2">
+                <ul>
+                    <li>Advanced E-mail</li>
+                    <li>Shared Calendars</li>
+                    <li>File Management</li>
+                    <li>Collaborative Editing</li>
+                    <li>Easy Administration</li>
+                    <li>Free and Open-source</li>
+                    <li>Calendar</li>
+                    <li>Android & IOS App</li>
+                </ul>
+            </div>
+            <button mat-button class="gridbutton2">READ MORE</button>
+        </div>
+        <div class="grid-content">
+            <img src="assets/image3.png" alt="Image 3">
+            <div class="grid-text">Carbonio for Public sector</div>
+            <div class="grid3">
+                <ul>
+                    <li>As per Government norms</li>
+                    <li>Achieve Data Sovereignty</li>
+                    <li>Private Deployment</li>
+                    <li>on Premises</li>
+                    <li>Digital Workplace</li>
+                    <li>Locality</li>
+                    <li>Data privacy</li>
+                    <li>Managed Service</li>
+                </ul>
+            </div>
+            <button mat-button class="gridbutton3">READ MORE</button>
+        </div>
+        <div class="grid-content">
+            <img src="assets/image4.png" alt="Image 4">
+            <div class="grid-text">Carbonio Advantages</div>
+            <div class="grid4">
+                <ul>
+                    <li>24 / 7 Expertise Support</li>
+                    <li>Live monitoring</li>
+                    <li>Scalability</li>
+                    <li>Data protection</li>
+                    <li>Video meeting and Chats</li>
+                    <li>Advanced Email Management</li>
+                    <li>Collaborative editing</li>
+                </ul>
+            </div>
+            <button mat-button class="gridbutton4">READ MORE</button>
+        </div>
+    
+</div>
+<br><br>
+
+<div class="carboniocontent">
+    <div class="carboniocontent1">
+        <div class="carboniosubheading">
+            The free and open source email and collaboration software
+        </div>
+    <div class="carbonioheading">Carbonio Community Edition</div><br>
+    <div class="carboniosubcontent">
+    <ul>
+        Unleash the full transparency and interoperability of Carbonio Community Edition, which is 100% open source. Use the software as needed.<br><br>
+        Carbonio Community Edition, created for the networked workplace, is offered through native Linux packaging. 
+        Once installed, all of the functions are available right immediately.<br><br>
+        With crucial email features, video calls, file management, and collaborative editing, Carbonio CE is prepared for today’s collaborative hybrid workplace.
+        
+    </ul>
+</div> 
+<button mat-button class="carbonionfeatures">READ MORE</button>
+    </div>
+<!-- <div class="mobileimg">
+    <img src="assets/mobileimage.jpeg" alt="zextasimg">
+</div> -->
+</div>
+
+<div class="client">
+    <h1>CLIENTS</h1>
+<div class="image-slider">
+    <button (click)="prevImage()" class="arrow left">&gt;</button>
+    <div class="image-container">
+        <img *ngFor="let image of images.slice(currentIndex, currentIndex + 3)" [src]="image" alt="Image">
+      </div>
+      <button (click)="nextImage()" class="arrow right">&gt;</button>
+  </div>
+</div>
+
+<div class="Testimonials">
+    <h1>OUR TESTIMONIALS</h1>
+    <div class="testimonialcontent">
+        <div class="moving-text">They took only a short period to increase the visibility strength of our website.
+            They analyze,search and optimize regularly for better seacrh results.</div>
+        <h3>MR.SULTAN MOHIDEEN</h3>
+        <h2>Bharat Metal Process</h2>
+      <!-- <div class="moving-text">Whether you are looking for a free domain registration along deployment or
+         a cheap server with fast performance and professional support assistance Sixth Star will definitely benifit you in all means 
+      </div>
+    <h3>MR.MANOHAR</h3>
+    <h4>Vijay TV</h4> -->
+    </div>
+</div>
+
+<div class="last-container">
+<div class="lastcontent"><br><br>
+    <div class="contentsection">
+    <div class="contentheading">ABOUT</div>
+    <div class="contentitems">
+            About Sixthstar<br>
+            Why choose us?<br>
+            Partner<br>
+            Sitemap<br>
+            Testimonials<br>
+    </div>
+    </div>
+
+    <div class="contentsection">
+    <div class="contentheading">SERVERS</div>
+    <div class="contentitems">
+        Dedicated Hosting<br>
+        VPS Hosting<br>
+        Cloud Hosting<br>
+        Shared Server Hosting<br>
+        Carbonio Email hosting providers<br>
+    </div>
+    </div>
+
+    <div class="contentsection">
+        <div class="contentheading">MAIL SERVICES</div>
+        <div class="contentitems">
+            Carbonio Mail Features<br>
+            Carbonio Community edition<br>
+            Carbonio Demo<br>
+            Carbonio Documentation<br>
+            High Availability<br>
+        </div>
+        </div>
+        
+</div>
+<hr>
+<div class="declaration">
+    © 2024 SixthStar. All Rights Reserved. Privacy policy | Terms of Services
+</div>
+</div>
